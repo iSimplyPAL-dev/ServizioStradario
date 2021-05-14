@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\..\OPENgov\packages\Microsoft.CodeAnalysis.FxCopAnalyzers.2.6.3\build\Microsoft.CodeAnalysis.FxCopAnalyzers.props" Condition="Exists('..\..\OPENgov\packages\Microsoft.CodeAnalysis.FxCopAnalyzers.2.6.3\build\Microsoft.CodeAnalysis.FxCopAnalyzers.props')" />
+  <Import Project="..\..\OPENgov\packages\Text.Analyzers.2.6.3\build\Text.Analyzers.props" Condition="Exists('..\..\OPENgov\packages\Text.Analyzers.2.6.3\build\Text.Analyzers.props')" />
+  <Import Project="..\..\OPENgov\packages\Microsoft.NetFramework.Analyzers.2.6.3\build\Microsoft.NetFramework.Analyzers.props" Condition="Exists('..\..\OPENgov\packages\Microsoft.NetFramework.Analyzers.2.6.3\build\Microsoft.NetFramework.Analyzers.props')" />
+  <Import Project="..\..\OPENgov\packages\Microsoft.NetCore.Analyzers.2.6.3\build\Microsoft.NetCore.Analyzers.props" Condition="Exists('..\..\OPENgov\packages\Microsoft.NetCore.Analyzers.2.6.3\build\Microsoft.NetCore.Analyzers.props')" />
+  <Import Project="..\..\OPENgov\packages\Microsoft.CodeQuality.Analyzers.2.6.3\build\Microsoft.CodeQuality.Analyzers.props" Condition="Exists('..\..\OPENgov\packages\Microsoft.CodeQuality.Analyzers.2.6.3\build\Microsoft.CodeQuality.Analyzers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{908D533E-571A-4DCB-BFA2-1E04F1A20972}</ProjectGuid>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>Stradario</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+    <RootNamespace>StradarioWeb</RootNamespace>
+    <StartupObject>StradarioWeb.%28None%29</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>Windows</MyType>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Stradario.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Stradario.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>none</DebugType>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\DLLComuni\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic">
+      <Name>Microsoft.VisualBasic</Name>
+    </Reference>
+    <Reference Include="OggettiComuniStrade, Version=1.0.4.0, Culture=neutral, PublicKeyToken=8e92109ba6c0d037, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\DLLComuni\OggettiComuniStrade.dll</HintPath>
+    </Reference>
+    <Reference Include="RemotingInterfaceOpenGovStradario, Version=1.0.6241.29150, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\DLLComuni\RemotingInterfaceOpenGovStradario.dll</HintPath>
+    </Reference>
+    <Reference Include="Ribes.OPENgov.WebControls">
+      <HintPath>..\..\..\DLLComuni\Ribes.OPENgov.WebControls.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Design">
+      <Name>System.Design</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Drawing.Design">
+      <Name>System.Drawing.Design</Name>
+    </Reference>
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.Web.Services">
+      <Name>System.Web.Services</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.HtmlControls" />
+    <Import Include="System.Web.UI.WebControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="PopUpEnti\Comandi.aspx.designer.vb">
+      <DependentUpon>Comandi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PopUpEnti\Comandi.aspx.vb">
+      <DependentUpon>Comandi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PopUpEnti\Enti.aspx.designer.vb">
+      <DependentUpon>Enti.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PopUpEnti\Enti.aspx.vb">
+      <DependentUpon>Enti.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PopUpEnti\PopUpEnti.aspx.designer.vb">
+      <DependentUpon>PopUpEnti.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PopUpEnti\PopUpEnti.aspx.vb">
+      <DependentUpon>PopUpEnti.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PopUpStradario\comandi.aspx.designer.vb">
+      <DependentUpon>comandi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PopUpStradario\comandi.aspx.vb">
+      <DependentUpon>comandi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PopUpStradario\popupstradario.aspx.designer.vb">
+      <DependentUpon>popupstradario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PopUpStradario\popupstradario.aspx.vb">
+      <DependentUpon>popupstradario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PopUpStradario\strade.aspx.designer.vb">
+      <DependentUpon>strade.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PopUpStradario\strade.aspx.vb">
+      <DependentUpon>strade.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReferenceWS.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Content Include="Global.asax" />
+    <Content Include="images\bottoni\annulla.gif" />
+    <Content Include="images\bottoni\cestino.gif" />
+    <Content Include="images\bottoni\cestino_old.gif" />
+    <Content Include="images\bottoni\chiudi.gif" />
+    <Content Include="images\bottoni\excel.gif" />
+    <Content Include="images\bottoni\first.gif" />
+    <Content Include="images\bottoni\freccia_dx_tr.gif" />
+    <Content Include="images\bottoni\freccia_sx_tr.gif" />
+    <Content Include="images\bottoni\invia-pratica2.gif" />
+    <Content Include="images\bottoni\last.gif" />
+    <Content Include="images\bottoni\Lista.gif" />
+    <Content Include="images\bottoni\Lista_Back.gif" />
+    <Content Include="images\bottoni\Lista_old.gif" />
+    <Content Include="images\bottoni\modifica.gif" />
+    <Content Include="images\bottoni\next.gif" />
+    <Content Include="images\bottoni\nuovoinserisci.gif" />
+    <Content Include="images\bottoni\nuovoinserisci2.gif" />
+    <Content Include="images\bottoni\papclip1.gif" />
+    <Content Include="images\bottoni\papclip2.gif" />
+    <Content Include="images\bottoni\papclip_originale.gif" />
+    <Content Include="images\bottoni\prec.gif" />
+    <Content Include="images\bottoni\ricerca.gif" />
+    <Content Include="images\bottoni\ricerca_piccolo.gif" />
+    <Content Include="images\bottoni\salva.gif" />
+    <Content Include="images\xp\excel.gif" />
+    <Content Include="images\xp\firstpg.gif" />
+    <Content Include="images\xp\firstpgd.gif" />
+    <Content Include="images\xp\lastpg.gif" />
+    <Content Include="images\xp\lastpgd.gif" />
+    <Content Include="images\xp\nextpg.gif" />
+    <Content Include="images\xp\nextpgd.gif" />
+    <Content Include="images\xp\orderasc.gif" />
+    <Content Include="images\xp\orderdesc.gif" />
+    <Content Include="images\xp\prevpg.gif" />
+    <Content Include="images\xp\prevpgd.gif" />
+    <Content Include="PopUpEnti\Comandi.aspx" />
+    <Content Include="PopUpEnti\Enti.aspx" />
+    <Content Include="PopUpEnti\PopUpEnti.aspx" />
+    <Content Include="PopUpStradario\comandi.aspx" />
+    <Content Include="PopUpStradario\popupstradario.aspx" />
+    <Content Include="PopUpStradario\strade.aspx" />
+    <Content Include="Stile\StylesGrandCombin.css" />
+    <Content Include="Web.config" />
+    <Content Include="docfx.json" />
+    <Content Include="articles\toc.md" />
+    <Content Include="articles\intro.md" />
+    <Content Include="api\index.md" />
+    <None Include="images\bottoni\Thumbs.db" />
+    <EmbeddedResource Include="PopUpEnti\Comandi.aspx.resx">
+      <DependentUpon>Comandi.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PopUpEnti\Enti.aspx.resx">
+      <DependentUpon>Enti.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PopUpEnti\PopUpEnti.aspx.resx">
+      <DependentUpon>PopUpEnti.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PopUpStradario\comandi.aspx.resx">
+      <DependentUpon>comandi.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PopUpStradario\popupstradario.aspx.resx">
+      <DependentUpon>popupstradario.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PopUpStradario\strade.aspx.resx">
+      <DependentUpon>strade.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <Content Include="packages.config" />
+    <Content Include="toc.yml" />
+    <Content Include="index.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="My Project\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Analyzer Include="..\..\OPENgov\packages\Microsoft.CodeQuality.Analyzers.2.6.3\analyzers\dotnet\vb\Humanizer.dll" />
+    <Analyzer Include="..\..\OPENgov\packages\Microsoft.CodeQuality.Analyzers.2.6.3\analyzers\dotnet\vb\Microsoft.CodeQuality.Analyzers.dll" />
+    <Analyzer Include="..\..\OPENgov\packages\Microsoft.CodeQuality.Analyzers.2.6.3\analyzers\dotnet\vb\Microsoft.CodeQuality.VisualBasic.Analyzers.dll" />
+    <Analyzer Include="..\..\OPENgov\packages\Microsoft.NetCore.Analyzers.2.6.3\analyzers\dotnet\vb\Microsoft.NetCore.Analyzers.dll" />
+    <Analyzer Include="..\..\OPENgov\packages\Microsoft.NetCore.Analyzers.2.6.3\analyzers\dotnet\vb\Microsoft.NetCore.VisualBasic.Analyzers.dll" />
+    <Analyzer Include="..\..\OPENgov\packages\Microsoft.NetFramework.Analyzers.2.6.3\analyzers\dotnet\vb\Microsoft.NetFramework.Analyzers.dll" />
+    <Analyzer Include="..\..\OPENgov\packages\Microsoft.NetFramework.Analyzers.2.6.3\analyzers\dotnet\vb\Microsoft.NetFramework.VisualBasic.Analyzers.dll" />
+    <Analyzer Include="..\..\OPENgov\packages\Text.Analyzers.2.6.3\analyzers\dotnet\vb\Text.Analyzers.dll" />
+    <Analyzer Include="..\..\OPENgov\packages\Text.Analyzers.2.6.3\analyzers\dotnet\vb\Text.VisualBasic.Analyzers.dll" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>62695</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Questo progetto fa riferimento a uno o più pacchetti NuGet che non sono presenti in questo computer. Usare lo strumento di ripristino dei pacchetti NuGet per scaricarli. Per altre informazioni, vedere http://go.microsoft.com/fwlink/?LinkID=322105. Il file mancante è {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\..\OPENgov\packages\Microsoft.CodeQuality.Analyzers.2.6.3\build\Microsoft.CodeQuality.Analyzers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\..\OPENgov\packages\Microsoft.CodeQuality.Analyzers.2.6.3\build\Microsoft.CodeQuality.Analyzers.props'))" />
+    <Error Condition="!Exists('..\..\OPENgov\packages\Microsoft.NetCore.Analyzers.2.6.3\build\Microsoft.NetCore.Analyzers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\..\OPENgov\packages\Microsoft.NetCore.Analyzers.2.6.3\build\Microsoft.NetCore.Analyzers.props'))" />
+    <Error Condition="!Exists('..\..\OPENgov\packages\Microsoft.NetFramework.Analyzers.2.6.3\build\Microsoft.NetFramework.Analyzers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\..\OPENgov\packages\Microsoft.NetFramework.Analyzers.2.6.3\build\Microsoft.NetFramework.Analyzers.props'))" />
+    <Error Condition="!Exists('..\..\OPENgov\packages\Text.Analyzers.2.6.3\build\Text.Analyzers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\..\OPENgov\packages\Text.Analyzers.2.6.3\build\Text.Analyzers.props'))" />
+    <Error Condition="!Exists('..\..\OPENgov\packages\Microsoft.CodeAnalysis.FxCopAnalyzers.2.6.3\build\Microsoft.CodeAnalysis.FxCopAnalyzers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\..\OPENgov\packages\Microsoft.CodeAnalysis.FxCopAnalyzers.2.6.3\build\Microsoft.CodeAnalysis.FxCopAnalyzers.props'))" />
+    <Error Condition="!Exists('..\..\OPENgov\packages\docfx.console.2.56.6\build\docfx.console.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\OPENgov\packages\docfx.console.2.56.6\build\docfx.console.targets'))" />
+  </Target>
+  <Import Project="..\..\OPENgov\packages\docfx.console.2.56.6\build\docfx.console.targets" Condition="Exists('..\..\OPENgov\packages\docfx.console.2.56.6\build\docfx.console.targets')" />
+</Project>

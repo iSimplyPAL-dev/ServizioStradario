@@ -1,0 +1,545 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Dev/PAL/Codice/Servizio Stradario/Stradario",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "zOZiulcV8z3GJb5o3bDfdg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "zR2so2+3gFkBbfaTgK8nzw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "t7iiFrmuYmrKWisdq+lN6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/bottoni/Lista.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/bottoni/Lista.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/bottoni/Lista_Back.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/bottoni/Lista_Back.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/bottoni/Lista_old.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/bottoni/Lista_old.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/bottoni/Thumbs.db",
+      "output": {
+        "resource": {
+          "relative_path": "images/bottoni/Thumbs.db"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/bottoni/annulla.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/bottoni/annulla.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/bottoni/cestino.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/bottoni/cestino.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/bottoni/cestino_old.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/bottoni/cestino_old.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/bottoni/chiudi.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/bottoni/chiudi.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/bottoni/excel.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/bottoni/excel.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/bottoni/first.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/bottoni/first.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/bottoni/freccia_dx_tr.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/bottoni/freccia_dx_tr.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/bottoni/freccia_sx_tr.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/bottoni/freccia_sx_tr.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/bottoni/invia-pratica2.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/bottoni/invia-pratica2.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/bottoni/last.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/bottoni/last.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/bottoni/modifica.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/bottoni/modifica.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/bottoni/next.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/bottoni/next.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/bottoni/nuovoinserisci.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/bottoni/nuovoinserisci.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/bottoni/nuovoinserisci2.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/bottoni/nuovoinserisci2.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/bottoni/papclip1.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/bottoni/papclip1.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/bottoni/papclip2.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/bottoni/papclip2.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/bottoni/papclip_originale.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/bottoni/papclip_originale.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/bottoni/prec.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/bottoni/prec.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/bottoni/ricerca.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/bottoni/ricerca.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/bottoni/ricerca_piccolo.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/bottoni/ricerca_piccolo.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/bottoni/salva.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/bottoni/salva.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/bottoni/vssver2.scc",
+      "output": {
+        "resource": {
+          "relative_path": "images/bottoni/vssver2.scc"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/xp/Thumbs.db",
+      "output": {
+        "resource": {
+          "relative_path": "images/xp/Thumbs.db"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/xp/excel.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/xp/excel.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/xp/firstpg.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/xp/firstpg.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/xp/firstpgd.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/xp/firstpgd.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/xp/lastpg.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/xp/lastpg.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/xp/lastpgd.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/xp/lastpgd.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/xp/nextpg.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/xp/nextpg.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/xp/nextpgd.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/xp/nextpgd.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/xp/orderasc.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/xp/orderasc.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/xp/orderdesc.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/xp/orderdesc.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/xp/prevpg.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/xp/prevpg.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/xp/prevpgd.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/xp/prevpgd.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/xp/vssver2.scc",
+      "output": {
+        "resource": {
+          "relative_path": "images/xp/vssver2.scc"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "2nB4KxeC3511vnyr6onpgw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "YogSCnhGJbX9ahf1VfioPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Disable incremental build by force rebuild option.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: it's disabled.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

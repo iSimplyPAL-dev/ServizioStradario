@@ -1,0 +1,34 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OggettiComuniStrade", "OggettiComuniStrade.csproj", "{63D16701-F051-4CB8-A076-9D66915D15A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63D16701-F051-4CB8-A076-9D66915D15A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63D16701-F051-4CB8-A076-9D66915D15A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63D16701-F051-4CB8-A076-9D66915D15A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63D16701-F051-4CB8-A076-9D66915D15A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccProjectUniqueName0 = OggettiComuniStrade.csproj
+		SccProjectName0 = \u0022$/Stradario/OggettiComuniStrade\u0022,\u0020ZUFAAAAA
+		SccLocalPath0 = .
+		SccProvider0 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		SccWebProject1 = true
+		SccProjectUniqueName1 = ..\\WSComuniStrade
+		SccProjectName1 = \u0022$/Stradario/WSComuniStrade\u0022,\u0020EVFAAAAA
+		SccProvider1 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		SccProjectFilePathRelativizedFromConnection1 = 
+		SccProjectEnlistmentChoice1 = 2
+	EndGlobalSection
+EndGlobal

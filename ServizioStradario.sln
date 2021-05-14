@@ -1,0 +1,53 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServizioStradarioOpengov", "ServizioStradarioOPENgov\ServizioStradarioOpengov.csproj", "{3EA1513D-67CD-494E-A81B-D5294B7D1D8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StradarioOpenGov", "StradarioOPENgov\StradarioOpenGov.csproj", "{09AB8340-1A86-4399-BF39-C73B7591788B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OggettiComuniStrade", "OggettiComuniStrade\OggettiComuniStrade.csproj", "{63D16701-F051-4CB8-A076-9D66915D15A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemotingInterfaceOpenGovStradario", "RemotingInterfaceOpenGovStradario\RemotingInterfaceOpenGovStradario.csproj", "{69BAEB55-A99A-493B-AFFB-9830E09982DC}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Stradario", "Stradario\Stradario.vbproj", "{908D533E-571A-4DCB-BFA2-1E04F1A20972}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8F7F9056-B956-4AA9-925E-D1CFFA5EFFD0}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3EA1513D-67CD-494E-A81B-D5294B7D1D8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EA1513D-67CD-494E-A81B-D5294B7D1D8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EA1513D-67CD-494E-A81B-D5294B7D1D8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EA1513D-67CD-494E-A81B-D5294B7D1D8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09AB8340-1A86-4399-BF39-C73B7591788B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09AB8340-1A86-4399-BF39-C73B7591788B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09AB8340-1A86-4399-BF39-C73B7591788B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09AB8340-1A86-4399-BF39-C73B7591788B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63D16701-F051-4CB8-A076-9D66915D15A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63D16701-F051-4CB8-A076-9D66915D15A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63D16701-F051-4CB8-A076-9D66915D15A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63D16701-F051-4CB8-A076-9D66915D15A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69BAEB55-A99A-493B-AFFB-9830E09982DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69BAEB55-A99A-493B-AFFB-9830E09982DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69BAEB55-A99A-493B-AFFB-9830E09982DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69BAEB55-A99A-493B-AFFB-9830E09982DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{908D533E-571A-4DCB-BFA2-1E04F1A20972}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{908D533E-571A-4DCB-BFA2-1E04F1A20972}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{908D533E-571A-4DCB-BFA2-1E04F1A20972}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{908D533E-571A-4DCB-BFA2-1E04F1A20972}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6583ACD6-A758-4177-BBA1-5399936EB2BB}
+	EndGlobalSection
+EndGlobal

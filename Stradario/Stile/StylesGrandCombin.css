@@ -1,0 +1,1399 @@
+/* Default CSS Stylesheet for a new Web Application project */
+*{font-family:Verdana, Arial, helvetica, sans-serif;}
+
+html body 
+{
+scrollbar-face-color: #999999; 
+scrollbar-highlight-color: #f7fff7; 
+scrollbar-shadow-color: #999999; 
+scrollbar-3dlight-color: #999999; 
+scrollbar-arrow-color: #fff; 
+scrollbar-track-color: #f7fff7; 
+scrollbar-base-color: #f7fff7
+}
+.SfondoComandi,.CartListHead{background-color:#FF2B4B;}
+.SfondoVisualizza{background-color:#F4FFF9;}
+
+.BottoneAnnulla,
+.BottoneAssocia,
+.BottoneRicerca
+{background-color:#FF2B4B;
+cursor:pointer;border:0px;width:30px; height:30px;background-repeat:no-repeat; }
+
+.BottoneAnnulla						{background-image:url(../images/Bottoni/annulla.png);}
+.BottoneAssocia						{background-image:url(../images/Bottoni/papclip_originalegrd.png);}
+.BottoneRicerca						{background-image:url(../images/Bottoni/ricerca.png);}
+
+.classeFiledSetRicerca{border:#00008b 1px solid;width:98%;}
+.classeLegend{font-weight:700;font-size:8pt;color:#00008b;}
+.Input_Label {color: darkblue;font-size:11px;}
+.Input_Text {border-right: #aec0ff 1px inset;border-top: #aec0ff 1px inset;font-size: 11px;text-transform: uppercase;border-left: #aec0ff 1px inset;color: darkblue;border-bottom: #aec0ff 1px inset;}
+.CartListHead{font-weight: bold;font-size: 10px;border-left: #696969 1px solid;color: #fff;border-bottom: #696969;height: 20px;}
+.CartListItem {background-color:#fff;border-bottom:#696969;border-left:#696969 1px solid;color:#000;font-size:10px;padding-left:5px;}
+.CartListItem {text-transform:uppercase;}
+.CartListItemAlt{background-color:#f5f5f5;border-bottom:#696969;border-left:#696969 1px solid;color:#000;font-size:10px;padding-left:5px;}
+.CartListItemAlt{text-transform:uppercase;}
+.CartListItemSel{color:#0ff;padding-left:5px;font-size:10px;}
+.CartListFooter{font-weight: normal;font-size: 10px;color: #000000;line-height: 10pt;}
+.Paging{font-size:10px;color:#800000;background-color:e8f8ff;}
+.riga_tabella_mouse_over{background-color:#e1f8ff;color:#00008B;}
+.riga_tabella_mouse_over{font-size:10px;text-transform:uppercase;}
+.riga_tabella{font-size:10px;color:#000;text-transform:uppercase;}
+
+/*
+.SfondoVisualizza,.Sfondo,.CartListFooter,.bodypage,.bodydiv,.lstTab{background-color:#F4FFF9;}
+.SfondoGenerale, .CartListHead, .ContentHead_Title
+{
+	background-color: #FF2B4B;
+}
+#btnRibaltaTesto{background-color:#aec0ff;}
+
+
+#lblTitolo, #infoEnte, .ContentHead_Title
+{
+	color: #c4d7e6;
+}
+
+
+.BottoneAggDate,
+.BottoneAnnullaAvviso,
+.BottoneApri,
+.BottoneApri,
+.BottoneApriElaborazioni,
+.BottoneWord,
+.BottoneBonifica,
+.BottoneAttivaSgravi,
+.BottoneFolderAccept,
+.BottoneCalcolo,
+.BottoneCalcolo,
+.BottoneCalendario,
+.BottoneCalendario,
+.BottoneCancella,
+.BottoneCreaFile,
+.BottoneCreaFile,
+.BottoneCreaFile,
+.BottoneDatiAggiuntivi,
+.BottoneDuplica,
+.BottoneElabora,
+.BottoneExcel,
+.BottoneFirst,
+.BottoneForzaDati,
+.BottoneGestioneFoto,
+.BottoneGoToCalcoloICI,
+.BottoneUserHome,
+.BottoneGrafico,
+.BottoneImport,
+.BottoneSalva,
+.BottoneLast,
+.BottoneLessMoney,
+.BottoneLettera,
+.BottoneMisure,
+.BottoneModifica,
+.BottoneMoney,
+.BottoneMoreMoney,
+.BottoneNewInsert,
+.BottoneNext,
+.BottoneNoMoney,
+.BottoneOk,
+.BottonePopolaAppoggio,
+.BottonePulisci,
+.BottonePreview,
+.BottonePrevious,
+.BottoneSalva,
+.BottoneRateizzazioni,
+.BottoneElabora,
+.BottoneCreaFile,
+.BottoneRibalta,
+.BottoneSalva,
+.BottoneSalvaRipulisci,
+.BottoneDownload,
+.BottoneSituazioneUI,
+.BottoneSoggetti,
+.BottoneStampa,
+.BottoneStampaAlt,
+.BottoneTerritorio,
+.BottoneTesto,
+.BottoneUserHome,
+.BottoneApri,
+.BottoneVisto,
+.BottoneWord,
+.BottoneClose
+{background-color:#FF2B4B;}
+*/
+
+/*ORG
+html body {SCROLLBAR-FACE-COLOR: #FF9966; SCROLLBAR-HIGHLIGHT-COLOR: #FFCBA5; SCROLLBAR-SHADOW-COLOR: #FF9966; SCROLLBAR-3DLIGHT-COLOR: #FF9966; SCROLLBAR-ARROW-COLOR: #ffffff; SCROLLBAR-TRACK-COLOR: #FFCBA5; SCROLLBAR-BASE-COLOR: #FFCBA5}
+.margin_Zero
+{
+	margin :0
+}
+.BottoneSalva
+{
+	background-image: url(images/Bottoni/salva.png);
+	cursor: hand;
+	border: 0px;
+	WIDTH: 30px; 
+	HEIGHT: 30px;
+	background-color:#FF9A63;
+	
+}
+.Bottonericerca
+{
+	background-image: url(../images/Bottoni/ricerca.png);
+	cursor: hand;
+	border: 0px;
+	WIDTH: 30px; 
+	HEIGHT: 30px;
+	background-color:#FF9A63;
+}
+.Bottonecancella
+{
+	background-image: url(../images/Bottoni/cestino.png);
+	cursor: hand;
+	border:0px;
+	WIDTH: 30px; 
+	HEIGHT: 30px;
+	background-color:#FF9A63;
+}
+.Bottoneannulla
+{
+	background-image: url(../images/Bottoni/annulla.png);
+	cursor: hand;
+	border:0px;
+	WIDTH: 30px; 
+	HEIGHT: 30px;
+	background-color:#FF9A63;
+}
+
+.BottoneLettera
+{
+	background-image: url(images/Bottoni/invia_pratica2.png);
+	cursor: hand;
+}
+.BottoneCalendario
+{
+	background: #d4d0c8 url(images/icon-calendar.png) no-repeat 0.5 40%;
+	width: 28px;
+	cursor: hand;
+	height: 26px;
+}
+
+.Bottonemodifica
+{
+	background-image: url(images/Bottoni/modifica.png);
+	cursor: hand;
+}
+
+.BottoneApri
+{
+	background-image: url(images/Bottoni/apri1.png);
+	cursor: hand;
+	border:0px;
+	WIDTH: 30px; 
+	HEIGHT: 30px;
+	background-color:#FF9A63;
+}
+.BottoneSalva
+{
+	background-image: url(images/Bottoni/salva.png);
+	cursor: hand;
+}
+.BottoneTesto
+{
+	background-image: url(images/Bottoni/Info.png);
+	cursor: hand;
+}
+
+.BottoneNewInsert
+{
+	background-image: url(images/Bottoni/nuovoinserisci.png);
+	cursor: hand;
+}
+
+.Bottonepulisci
+{
+	background-image: url(images/Bottoni/chiudi.png);
+	cursor: hand;
+	border:0px;
+	WIDTH: 30px; 
+	HEIGHT: 30px;
+	background-color:#FF9A63;
+	
+}
+
+.Bottoneassocia
+{
+	background-image: url(../images/Bottoni/papclip1.png);
+	cursor: hand;
+	cursor: hand;
+	border: 0px;
+	width: 30px; 
+	height: 30px;
+	background-color:#FF9A63;
+	background-repeat:no-repeat;
+}
+
+.BottoneFolderAccept
+{
+	background-image: url(images/Bottoni/spunta_s.png);
+	cursor: hand;
+}
+
+.BottoneUserHome
+{
+	background-image:url(images/Bottoni/casa.png);
+	cursor:hand;
+}
+
+.BottoneSoggetti
+{
+	background-image:url(../images/Bottoni/Soggetti.png);
+	cursor:hand;
+}
+
+.BottoneMisure
+{
+	background-image:url(images/Bottoni/Rulers.png);
+	cursor:hand;
+}
+
+.BottoneCalcolo
+{
+	background-image:url(../images/Bottoni/CalcoloMisure1.png);
+	cursor:hand;
+}
+
+.BottoneGestioneFoto
+{
+	background-image:url(images/Bottoni/foto_s.png);
+	cursor:hand;
+}
+
+.BottoneSituazioneUI
+{
+	background-image:url(images/Bottoni/home_UI_small.png);
+	cursor:hand;
+}
+
+.BottoneImport
+{
+	background-image:url(images/Bottoni/Bottone_acquisizione.png);
+	cursor:hand;
+}
+
+.BottoneCreaFile
+{
+	background-image:url(images/Bottoni/nuovoinserisci2.png);
+	cursor:hand;
+}
+
+.BottoneNext
+{
+	background-image:url(gfx/small_blackarrow/nextpg.png);
+	cursor:hand;
+}
+
+.BottonePrevious
+{
+	background-image:url(gfx/small_blackarrow/prevpg.png);
+	cursor:hand;
+}
+
+.BottoneFirst
+{
+	background-image:url(gfx/small_blackarrow/firstpg.png);
+	cursor:hand;
+}
+
+.BottoneLast
+{
+	background-image:url(gfx/small_blackarrow/lastpg.png);
+	cursor:hand;
+}
+.BottoneStampa
+{
+	background-image:url(images/Bottoni/Stampa.png);
+	cursor:hand;
+}
+.BottoneCreaFile
+{
+	background-image:url(images/Bottoni/nuovoinserisci2.png);
+	cursor:hand;
+}
+.BottoneAnnullaAvviso
+{
+	background-image:url(images/Bottoni/chiudi.png);
+	cursor:hand;
+	
+}
+.SfondoVisualizza
+{
+	font-size: x-small;
+	font-family: Verdana;
+	background-color: #FFCBA5;
+}
+.SfondoComandi{
+	background-color:#FF9A63;
+}
+
+.SfondoGenerale
+{
+	font-size: x-small;
+	font-family: Verdana;
+	background-color: #FF9966;
+}
+
+.Menu
+{
+	font-weight: normal;
+	font-size: 7pt;
+	cursor: pointer;
+	color: white;
+	font-family: Verdana;
+}
+
+.MenuOver
+{
+	font-weight: normal;
+	font-size: 7pt;
+	color: #0096A5;
+	font-family: Verdana;
+	cursor:pointer; 
+}
+.SottoMenu
+{
+	font-weight: normal;
+	font-size: 7pt;
+	color: white;
+	font-family: Verdana;
+	cursor:pointer;
+}
+.SottoMenuOver
+{
+	font-weight: normal;
+	font-size: 7pt;
+	color: #ff8700;
+	font-family: Verdana;
+	cursor:pointer;
+}
+
+.CartListHead
+{
+	font-weight: bold;
+	font-size: 7pt;
+	border-left: dimgray 1px solid;
+	color: white;
+	border-bottom: dimgray;
+	font-family: Verdana, Arial;
+	background-color: #FF9966;
+}
+
+.CartListItem
+{
+    background-color: #ffffff;
+    border-bottom: dimgray;
+    border-left: dimgray 1px solid;
+    color: black;
+    font-family: Verdana, Arial;
+    font-size: 7pt;
+    padding-left: 5px;
+    text-transform: uppercase;
+    
+}
+
+.CartListItemAlt
+{
+	padding-left: 5px;
+	font-size: 7pt;
+	border-left: dimgray 1px solid;
+	color: black;
+	border-bottom: dimgray;
+	font-family: Verdana, Arial;
+	background-color: "WhiteSmoke";
+	text-transform: uppercase;
+	
+}
+
+.CartListItemSel
+{
+	padding-left: 5px;
+	font-size: 7pt;
+	color:Aqua;
+	
+}
+
+.CartListFooter
+{
+	font-weight: normal;
+	font-size: 10px;
+	color: #000000;
+	line-height: 10pt;
+	font-family: Verdana, Arial;
+	background-color: #ffcba5;
+ }
+
+.TreeItem
+{
+	font-weight: bold;
+	font-size: 10px;
+	color: black;
+	font-family: Verdana, Arial;
+}
+
+.TreeSelectedItem
+{
+	font-family:Verdana, Arial ;
+	font-size:10px;
+	font-weight:bold;
+	background-color:red;  
+}
+
+.Input_Label
+{
+	color: darkblue;
+	font-family: Verdana;
+	font-size:11px;	
+}
+.Input_Label_login
+{
+	color: white;
+	font-family: Verdana;
+	font-weight :bold;
+	font-size:8pt;	
+}
+.Input_Label_login_Account
+{
+	color: white;
+	font-family: Verdana;
+	font-weight :bold;
+	font-size:11pt;	
+}
+.Input_Label_login_Account14
+{
+	font-weight: bold;
+	font-size: 15pt;
+	color: white;
+	font-style: italic;
+	font-family: Verdana;
+}
+.Input_Label_home
+{
+	color: black;
+	font-weight :bold ;
+	font-family: Verdana;
+	font-size:20pt;	
+}
+.Input_Label_RED
+{
+	color: red;
+	font-family: Verdana;
+	font-size:10;	
+	text-transform:uppercase ;
+}
+.Input_Label_bold
+{
+  font-weight: bold;
+  font-size: 10px;
+  font-family: Verdana;
+  background-color: #9ce3ff;
+}
+.Input_Label_Right
+{
+	color: darkblue;
+	font-family: Verdana;
+	font-size:10;	
+	text-align:right;
+	text-transform:uppercase ;
+}
+
+.Input_Label_UpperCase
+{
+	color: darkblue;
+	font-family: Verdana;
+	font-size:10;	
+	text-transform:uppercase ;
+}
+
+.Input_Label_PopUp
+{
+	color: darkblue;
+	font-family: Verdana;
+	font-size:18;	
+	text-transform:uppercase ;
+}
+
+.Input_Label_disabled
+{
+	font-size: 10px;
+	color: silver;
+	font-family: Verdana;
+}
+
+.Label_Param_Ricerca
+{
+	font-size: 10px;
+	color: darkblue;
+	font-family: Verdana;
+	background-color: #e8f8ff;
+	text-align: center;
+}
+
+.Input_Text
+{
+
+	border-right: #aec0ff 1px inset;
+	border-top: #aec0ff 1px inset;
+	font-size: 11px;
+	text-transform: uppercase;
+	border-left: #aec0ff 1px inset;
+	color: darkblue;
+	border-bottom: #aec0ff 1px inset;
+	font-family: Verdana;
+}
+
+.Input_Text_Center
+{
+
+	border-right: #aec0ff 1px inset;
+	border-top: #aec0ff 1px inset;
+	font-size: 11px;
+	text-transform: uppercase;
+	border-left: #aec0ff 1px inset;
+	color: darkblue;
+	border-bottom: #aec0ff 1px inset;
+	font-family: Verdana;
+	text-align: center;
+}
+
+.Input_Text_No_Upper
+{
+
+	border-right: #aec0ff 1px inset;
+	border-top: #aec0ff 1px inset;
+	font-size: 11px;
+	border-left: #aec0ff 1px inset;
+	color: darkblue;
+	border-bottom: #aec0ff 1px inset;
+	font-family: Verdana;
+}
+.Input_Text_Right
+{
+
+	border-right: #aec0ff 1px inset;
+	border-top: #aec0ff 1px inset;
+	font-size: 11px;
+	text-transform: uppercase;
+	border-left: #aec0ff 1px inset;
+	color: darkblue;
+	border-bottom: #aec0ff 1px inset;
+	font-family: Verdana;
+	text-align:right
+}
+
+
+.Input_Text_bold
+{
+
+	border-right: #aec0ff 1px inset;
+	border-top: #aec0ff 1px inset;
+	font-size: 14px;
+	text-transform: uppercase;
+	border-left: #aec0ff 1px inset;
+	color: darkblue;
+	border-bottom: #aec0ff 1px inset;
+	font-family: Verdana;
+	font-weight: bold;
+	
+}
+
+.Input_Text_Enable_Red_Right
+{
+	border-right: #aec0ff 1px solid;
+	border-top: #aec0ff 1px solid;
+	font-weight: normal;
+	font-size: 11px;
+	vertical-align: baseline;
+	text-transform: uppercase;
+	border-left: #aec0ff 1px solid;
+	color: darkblue;
+	border-bottom: #aec0ff 1px solid;
+	font-family: Verdana;
+	background-color: buttonhighlight;
+	text-align: right;
+}
+.Input_Text_Enable_Red_Left
+{
+	border-right: #aec0ff 1px solid;
+	border-top: #aec0ff 1px solid;
+	font-weight: normal;
+	font-size: 11px;
+	vertical-align: baseline;
+	text-transform: uppercase;
+	border-left: #aec0ff 1px solid;
+	color: darkblue;
+	border-bottom: #aec0ff 1px solid;
+	font-family: Verdana;
+	background-color: buttonhighlight;
+	text-align: left;
+}
+.Input_Text_Red_Left
+{
+	border-right: #aec0ff 0px solid;
+	border-top: #aec0ff 0px solid;
+	font-weight: normal;
+	font-size: 11px;
+	vertical-align: baseline;
+	text-transform: uppercase;
+	border-left: #aec0ff 0px solid;
+	color: RED;
+	border-bottom: #aec0ff 0px solid;
+	font-family: Verdana;
+	background-color: buttonhighlight;
+	text-align: left;
+}
+.Input_Text_LowerCase
+{
+	
+	border-right: #aec0ff 1px inset;
+	border-top: #aec0ff 1px inset;
+	font-size: 11px;
+	text-transform: lowercase;
+	border-left: #aec0ff 1px inset;
+	color: darkblue;
+	border-bottom: #aec0ff 1px inset;
+	font-family: Verdana;
+}
+
+.Input_Text_Numbers
+{
+	font-size: 11px;
+	color: darkblue;
+	font-family: Verdana;
+	text-align:right;
+	border-right: #aec0ff 1px inset;
+	border-top: #aec0ff 1px inset;
+	border-left: #aec0ff 1px inset;
+	border-bottom: #aec0ff 1px inset;
+	text-transform: uppercase;
+		
+}
+
+.Input_Text_Locked
+{
+	border-right: #aec0ff 1px inset;
+	border-top: #aec0ff 1px inset;
+	font-size: 11px;
+	text-transform: uppercase;
+	border-left: #aec0ff 1px inset;
+	color: darkblue;
+	background-color: #e8f8ff;
+	border-bottom: #aec0ff 1px inset;
+	font-family: Verdana;		
+}
+
+
+.Input_CheckBox
+{
+	font-size: 10px;
+	color: darkblue;
+	font-family: Verdana;
+	border-right: #aec0ff 1px inset;
+	border-top: #aec0ff 1px inset;
+	border-left: #aec0ff 1px inset;
+	border-bottom: #aec0ff 1px inset;
+}
+
+.Input_Radio
+{
+	font-size: 10px;
+	color: darkblue;
+	font-family: Verdana;
+}
+
+.TableParamRicerca
+{
+	border:1;
+	border-right: 1px solid;
+	border-top: 1px solid;
+	border-left: 1px solid;
+	border-bottom: 1px solid;
+	border-color :darkblue;
+}
+
+.TableRisultRicerca
+{
+
+	border-top: darkblue thin solid;
+	border-color :darkblue;
+}
+
+.TableFrame
+{
+	background-color: #0079ff;
+	border:1;
+	border-right: 1px solid;
+	border-top: 1px solid;
+	border-left: 1px solid;
+	border-bottom: 1px solid;
+	border-color :#0079ff;
+}
+
+
+.BottoniLink
+{
+	font-weight: bolder;
+	font-size: 10pt;
+	color: darkblue;
+	border-right-style: ridge;
+	background-color: #aed4f8;
+	border-bottom-style: ridge;
+}
+
+.riga_tabella_mouse_over_old
+{
+	font-size: 7pt;
+	color: darkblue;
+	font-family: Verdana;
+	background-color: lightsteelblue;
+}
+.riga_tabella_old
+{
+	font-size: 7pt;
+	color: black;
+	font-family: Verdana;
+}
+
+.riga_tabella_mouse_over
+{
+	font-size: 7pt;
+	color: darkblue;
+	font-family: Verdana;
+	background-color: #e1f8ff;
+	text-transform:uppercase 
+	
+}
+.riga_tabella
+{
+  font-size:7pt;
+  color: black;
+  font-family: Verdana;
+  text-transform:uppercase ;
+  
+}
+
+.header
+{
+	font-weight: bold;
+	font-size: 8pt;
+	color: black;
+	font-family: Verdana;
+	background-color: lightblue;
+}
+
+.Footer
+{
+	font-weight: bold;
+	font-size: 10px;
+	color: darkblue;
+	font-family: Verdana;
+	background-color: #E8F8FF;
+}
+.ContentHead
+{
+	font-weight: normal;
+	font-size: 12px;
+	color: navy;
+	font-family: Verdana, Arial;
+	height: 20px;
+	background-color:#E8F8FF;
+}
+
+.Paging
+{
+	font-size: 10px;
+	color: maroon;
+	font-family: Verdana;
+	background-color: #E8F8FF;
+}
+
+.NormalBold_title
+{
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 12px
+}
+.ContentHead_Title
+{
+	font-weight: bold;
+	font-size: 13pt;
+	color: #0096A5;
+	font-family: Verdana, Arial;
+	height: 20px;
+	background-color: #FF9966;
+}
+
+.NormalBold
+{
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 10px
+}
+
+.Title_popUp
+{
+  font-weight: normal;
+  font-size: large;
+  color: blue;
+  font-style: italic;
+  font-family: Verdana;
+}
+
+.BottoneSalva
+{
+	background-position: center center;
+	background-attachment: scroll;
+	background-image: url(images/Bottoni/salva.png);
+	width: 30px;
+	cursor: hand;
+	position: static;
+	height: 30px;
+}
+
+
+.Sfondo
+{
+	background-color: #FFCBA5;
+}
+
+.lstTabRow
+{
+  font-weight: bold;
+  font-size: x-small;
+  color: darkblue;
+  border-bottom: darkblue 1px solid;
+  font-family: Tahoma, Arial, Verdana;
+  font-variant: small-caps;
+}
+
+.AnagraficaRow
+{
+  font-weight: bold;
+  font-size: 15px;
+  color: darkblue;
+  font-family: Tahoma, Arial, Verdana;
+  font-variant: small-caps;
+}
+
+.lstTab
+{
+  border-right: darkblue 1px solid;
+  border-top: darkblue 1px solid;
+  border-left: darkblue 1px solid;
+  border-bottom: darkblue 1px solid;
+}
+	
+.CODICEFISCALE
+{
+  background-position: center center;
+  background-attachment: fixed;
+  background-image: url(images/Lista.png);
+  width: 16px;
+  cursor: hand;
+  position: static;
+  height: 16px;
+}
+
+.NormalRed
+{
+	font-weight: bold;
+	font-size: 12px;
+	color: red;
+	font-family: Verdana, Helvetica, sans-serif;
+}
+.ErrorMessage
+{
+	font-weight: bold;
+	font-size: 11px;
+	color: black;
+	font-style: italic;
+	font-family: Verdana, Helvetica, sans-serif;
+}
+
+.Input_Label_title
+{
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 12px;
+    color:darkblue;
+}
+
+.bordoIFRAME
+{
+  border-right: darkblue 1px;
+  border-top: darkblue 1px solid;
+  background-image: none;
+  border-left: darkblue 1px;
+  border-bottom: darkblue 1px;
+}
+
+.div_scroll_menu
+{
+	width:100%; 
+	height:536px; 
+	overflow:auto;
+}
+
+
+.TITLEBODY
+{
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 12px    
+}
+
+.TITLEBOLD
+{
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 12px    
+}
+
+.BODYPAGE
+{
+  background:#E8F8FF;
+}
+
+.BODYDIV
+{
+  background:#E8F8FF;
+}
+
+.LABELBOLD
+{
+  font-weight: bold;
+  font-size: 8pt;
+  color: black;
+  font-family: Verdana;
+}
+
+.ERRORSTYLE
+{
+    font-weight: bold;
+	font-size: 10px;
+	color: red;
+	font-family: Verdana;
+}
+
+.Bottone
+{
+  border-top-width: thin;
+  font-weight: normal;
+  border-left-width: thin;
+  font-size: 8pt;
+  border-left-color: white;
+  border-bottom-width: thin;
+  border-bottom-color: white;
+  cursor: hand;
+  color: black;
+  border-top-color: white;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  background-color: #E8F8FF;
+  border-right-width: thin;
+  border-right-color: white;
+}
+
+.Input_Number_Generali
+{
+  border-right: #edee6e 1px inset;
+  border-top: #edee6e 1px inset;
+  font-size: xx-small;
+  text-transform: uppercase;
+  border-left: #edee6e 1px inset;
+  color: darkblue;
+  border-bottom: #edee6e 1px inset;
+  font-family: Verdana;
+  text-align: right;
+}
+
+.classeLegend
+{
+	font-weight: normal;
+	font-size: 8pt;
+	color: darkblue;
+	font-family: Verdana;
+}
+.classeLegendPrincipale
+{
+	font-weight: bold;
+	font-size: 11px;
+	color:darkblue;
+	font-family: Verdana;
+}
+.classeFiledSet
+{
+	border-right: #d3d3d3 1px solid;
+	border-top: #d3d3d3 1px solid;
+	border-left: #d3d3d3 1px solid;
+	border-bottom: #d3d3d3 1px solid;
+	text-align: center; 
+	margin-left:10px;
+	margin-right:10px;
+	padding-bottom:10px;
+}
+.classeFiledSet_WHITE
+{
+	border-right: #d3d3d3 1px solid;
+	border-top: #d3d3d3 1px solid;
+	border-left: #d3d3d3 1px solid;
+	width: 98%;
+	border-bottom: #d3d3d3 1px solid;
+	background-color: #ffffff;
+	text-align: center;
+}
+.classeFiledSet_TEST
+{
+	border-right: #d3d3d3 1px solid;
+	border-top: #d3d3d3 1px solid;
+	border-left: #d3d3d3 1px solid;
+	width: 75%;
+	border-bottom: #d3d3d3 1px solid;
+	background-color: #6600ff;
+	text-align: center;
+}
+.classeFiledSet100
+{
+    BORDER-RIGHT: #d3d3d3 1px solid;
+    BORDER-TOP: #d3d3d3 1px solid;
+    BORDER-LEFT: #d3d3d3 1px solid;
+    WIDTH: 100%;
+    BORDER-BOTTOM: #d3d3d3 1px solid;
+    text-align:center;
+
+}
+fieldset
+{
+    BORDER-RIGHT: #d3d3d3 1px solid;
+    BORDER-TOP: #d3d3d3 1px solid;
+    BORDER-LEFT: #d3d3d3 1px solid;
+    WIDTH: 100%;
+    BORDER-BOTTOM: #d3d3d3 1px solid;
+}
+
+.classeFiledSetIframe
+{
+    
+  border-right: darkblue 1px;
+  border-top: darkblue 1px solid;
+  WIDTH: 98%;
+  border-left: darkblue 1px;
+  border-bottom: darkblue 1px;
+    
+}
+.classeFiledSetIframe100
+{
+    
+  border-right: darkblue 1px;
+  border-top: darkblue 1px solid;
+  WIDTH: 100%;
+  border-left: darkblue 1px;
+  border-bottom: darkblue 1px;
+    
+}
+#attesa{
+ position:absolute;
+ background-color: white;
+ border: 1px solid  steelblue;
+ font-weight: bold;
+ font-size: 12px;
+ font-family:  Verdana, Arial, helvetica, sans-serif;
+ text-align:center;
+ top:290px;
+ left:250px;
+ width:280px;
+ height:150px;
+    
+}
+#attesaGestioneAtti{
+ position:absolute;
+ background-color: white;
+ border: 1px solid steelblue;
+ font-weight: bold;
+ font-size: 12px;
+ font-family:  Verdana, Arial, helvetica, sans-serif;
+ text-align:center;
+ top:180px;
+ left:250px;
+ width:280px;
+ height:150px;
+  
+}
+#attesaGestioneAtti_popup{
+ position:absolute;
+ background-color: white;
+ border: 1px solid steelblue;
+ font-weight: bold;
+ font-size: 11px;
+ font-family:  Verdana, Arial, helvetica, sans-serif;
+ text-align:center;
+ top:180px;
+ left:150px;
+ width:232px;
+ height:144px;
+  
+}
+#attesaGestioneAtti_ATTI{
+ position:absolute;
+ background-color: white;
+ border: 1px solid steelblue;
+ font-weight: bold;
+ font-size: 11px;
+ font-family:  Verdana, Arial, helvetica, sans-serif;
+ text-align:center;
+ top:180px;
+ left:250px;
+ width:232px;
+ height:144px;
+  
+}
+#NessunaElaborazione_old{
+   border-right: #000 1px solid;
+  border-top: #000 1px solid;
+  font-weight: bold;
+  font-size: 12px;
+  left: 250px;
+  border-left: #000 1px solid;
+  width: 350px;
+  color: crimson;
+  border-bottom: #000 1px solid;
+  font-family: Verdana, Arial, helvetica, sans-serif;
+  position: absolute;
+  top: 150px;
+  height: 100px;
+  background-color: white;
+  text-align: center;
+  
+}
+#ElaborazioneTerminata_old{
+  border-right: #000 1px solid;
+  border-top: #000 1px solid;
+  font-weight: bold;
+  font-size: 12px;
+  left: 250px;
+  border-left: #000 1px solid;
+  width: 350px;
+  color: crimson;
+  border-bottom: #000 1px solid;
+  font-family: Verdana, Arial, helvetica, sans-serif;
+  position: absolute;
+  top: 150px;
+  height: 100px;
+  background-color: white;
+  text-align: center;
+  
+}
+#ElaborazioneErrore_OLD{
+  border-right: #000 1px solid;
+  border-top: #000 1px solid;
+  font-weight: bold;
+  font-size: 12px;
+  left: 250px;
+  border-left: #000 1px solid;
+  width: 350px;
+  color: crimson;
+  border-bottom: #000 1px solid;
+  font-family: Verdana, Arial, helvetica, sans-serif;
+  position: absolute;
+  top: 150px;
+  height: 100px;
+  background-color: white;
+  text-align: center;
+  
+}
+#ElaborazioneIncorso_OLD
+{
+  border-right: #000 1px solid;
+  border-top: #000 1px solid;
+  font-weight: bold;
+  font-size: 12px;
+  left: 250px;
+  border-left: #000 1px solid;
+  width: 350px;
+  color: crimson;
+  border-bottom: #000 1px solid;
+  font-family: Verdana, Arial, helvetica, sans-serif;
+  position: absolute;
+  top: 150px;
+  height: 100px;
+  background-color: white;
+  text-align: center;
+}
+#ElaborazioneIncorso_1
+{
+	
+	font-weight: bold;
+	font-size: 12px;
+	left: 250px;
+	width: 280px;
+	font-family: Verdana, Arial, helvetica, sans-serif;
+	position: absolute;
+	top: 150px;
+	height: 150px;
+	background-color: #E8F8FF ;
+	text-align: center;
+	
+	
+}
+.lstTab
+{
+	border-right: #aec1ff 1px solid;
+	border-top: #aec0ff 1px solid;
+	border-left: #aec0ff 1px solid;
+	border-bottom: #aec0ff 1px solid;
+}
+#btnRibaltaTesto{
+ font-weight: bold;
+ background-color :#FFDBC6;
+ border:0px solid #aaa;
+ width:80px;
+ height:20px;
+ font-size:10pt;
+ color:#000;
+ cursor:pointer;
+}
+
+.btnList{
+ font-weight: bold;
+ background-color :#aec0ff;
+ border:0px solid #aaa;
+ width:80px;
+ height:20px;
+ font-size:10pt;
+ color:#000;
+ cursor:pointer;
+}
+.btnList_botton{
+ font-weight: bold;
+ background-color :#aec0ff;
+ border:0px solid #aaa;
+ width:80px;
+ height:15px;
+ font-size:8pt;
+ color:#000;
+ cursor:pointer;
+}
+.tdt
+{
+	border-top: #aec0ff 1px solid;
+}
+.tdb
+{
+	border-bottom:1px solid #aec0ff
+}
+.tdl
+{
+	border-left:0px solid #000;
+
+}
+.tdr
+{
+	border-right:0px solid #000 
+}
+.Centrato
+{
+	text-align :center 
+}
+.AllineaSinistra
+{
+	text-align :left 
+}
+.BackGround
+{
+	background-color :#FFF 
+}
+
+.BackGround_E8F8FF
+{
+	background-color :#E8F8FF 
+}
+.BottoniAccertamenti
+{
+	font-weight: bold;
+	background-color :#aec0ff;
+	border:0px solid #aaa;
+	width:80px;
+	height:20px;
+	font-size:10pt;
+	color:#000;
+	cursor:pointer;
+}
+.BottoniAccertamentiOver
+{
+  font-weight: bold;
+	background-color :#aec0ff;
+  border:0px solid #aaa;
+  width:80px;
+  height:20px;
+  font-size:10pt;
+  color:#000;
+  cursor:pointer;
+}
+.hrlogin
+{
+	height: 1pt;
+	color:#fff; 
+	}
+	
+.wait
+{
+	font-family:Verdana ;
+	font-size:10pt;
+	font-weight :bold ;
+	background-color: #E8F8FF;
+
+}	
+.labellogOff
+{
+	left: 0px; 
+	position: absolute; 
+	top: 0px; 
+	height: 10px; 
+	color:#fff	;
+	text-align:left; 
+	font-weight: bold;
+	font-size: 7pt;
+	color: white;
+	font-family: Verdana;
+}
+.logOff
+{
+	color:#fff	;
+	font-weight: bold;
+	font-size: 7pt;
+	color: white;
+	font-family: Verdana;
+	cursor:pointer; 
+	text-decoration:none;
+}
+
+.barra
+{
+	font-family:Verdana, Arial ;
+	font-size:10px;
+	font-weight:bold;
+	color:red;  
+}
+
+.classeFiledSetRicerca
+{
+    BORDER-RIGHT: darkblue 1px solid;
+    BORDER-TOP: darkblue 1px solid;
+    BORDER-LEFT: darkblue 1px solid;
+    WIDTH: 98%;
+    BORDER-BOTTOM: darkblue 1px solid;
+}
+*/
